@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Tutorial
 
-Introductory paragraph (replace this with your text)
+A regular expression is a sequence of characters that specifies a search pattern in text. Usually, patterns are used by string-searching algorithms for "find" or "find and replace" operation on string, or for input validation.
 
 ## Summary
 
@@ -58,11 +58,13 @@ Regular expressions may have flags that affect the search. There are only 8 of t
 
 ### Grouping and Capturing
 
+By placing part of a regular expression insied round brackets or parentheses, you can group that part of the regular expression together. This allows you to apply a quantifier to the entire group or to restrict alternation to part of the regex.
 
+In thhis example it includes the following groupd: ([a-z)-9_.-]+). The + sign means we match at least one or more of any characters in the square brackets. a-z is talking about the lowercase letters from a-z, 0-9 includes the numbers from 0 to 9. 
 
 ### Bracket Expressions
 
-
+Anything inside a set of square brackets ([]) represents a range of characters that we want to match. We can write these expressions to include all the characters we wnat to match. For example our expresssion has: ([a-z0-9_.-]+), ([\da-z.-]+), and ([a-z.]{2,6})
 
 ### Greedy and Lazy Match
 
