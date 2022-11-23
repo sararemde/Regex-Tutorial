@@ -41,7 +41,6 @@ Quantifiers are characters that have strings limits. For example in the example 
 ### OR Operator
 
 
-
 ### Character Classes
 
 Character classes are used to distinguish specific kinds of characters from a certain set. 
