@@ -26,11 +26,9 @@ This regex example represents matching an email. Every component and symbol has 
 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
-
 ### Anchors
 
 The characters we use to express anchors are ^ and $. They are used to match a position before, after, or between characters. 
-
 
 They can be used to "anchor" the regex match at a certain position. 
 
@@ -68,22 +66,22 @@ Anything inside a set of square brackets ([]) represents a range of characters t
 
 ### Greedy and Lazy Match
 
-
+In the given code for matching an email, there isn't a greedy or lazy match included
 
 ### Boundaries
 
-
+The metacharacter \b is an anchor like the caret and the dollar sign. It matches at a position that is called a "word boundary". This match is zero-length
 
 ### Back-references
 
-
+This expression does not have any back references
 
 ### Look-ahead and Look-behind
 
-
+Lookahead and lookbehind, collectively called "lookaround", are zero-length assertions just like the start and end of line, and start and end of word anchors explained earlier in this tutorial. The difference is that lookaround actually matches characters, but then gives up the match, returning only the result: match or no match.
 
 ## Author
 
-
+visit our github link: https://github.com/sararemde/Regex-Tutorial 
 
 A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
