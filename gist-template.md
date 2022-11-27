@@ -40,6 +40,7 @@ Quantifiers are characters that have strings limits. For example in the example 
 
 ### OR Operator
 
+The next component is the OR operator. It is defined using the | element. 
 
 ### Character Classes
 
